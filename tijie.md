@@ -1,6 +1,6 @@
+# **题解**
 
-#题解#
-定义函数twosum:
+1.定义函数twosum:
 ```go
 func twosum(nums []int,target int)[]int{
   var NUMS []int
@@ -15,7 +15,7 @@ func twosum(nums []int,target int)[]int{
   return NUMS
 }
 ```
-再调用twosum函数
+2.再调用twosum函数
 ```go
 func main(){
   var target,length int
